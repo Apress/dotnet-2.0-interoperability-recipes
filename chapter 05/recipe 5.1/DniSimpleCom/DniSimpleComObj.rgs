@@ -1,0 +1,27 @@
+HKCR
+{
+	DniSimpleCom.DniSimpleComObj.1 = s 'DniSimpleComObj Class'
+	{
+		CLSID = s '{F004EC87-EFCE-4252-B595-069311963BBB}'
+	}
+	DniSimpleCom.DniSimpleComObj = s 'DniSimpleComObj Class'
+	{
+		CLSID = s '{F004EC87-EFCE-4252-B595-069311963BBB}'
+		CurVer = s 'DniSimpleCom.DniSimpleComObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {F004EC87-EFCE-4252-B595-069311963BBB} = s 'DniSimpleComObj Class'
+		{
+			ProgID = s 'DniSimpleCom.DniSimpleComObj.1'
+			VersionIndependentProgID = s 'DniSimpleCom.DniSimpleComObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{439068C7-4A28-47B9-B2DE-FA955C11259B}'
+		}
+	}
+}

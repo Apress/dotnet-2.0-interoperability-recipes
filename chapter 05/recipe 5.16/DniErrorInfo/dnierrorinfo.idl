@@ -1,0 +1,37 @@
+// DniErrorInfo.idl : IDL source for DniErrorInfo
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DniErrorInfo.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(F861C16E-24D1-4EE9-9B48-BA7646E9AE75),
+	dual,
+	nonextensible,
+	helpstring("IDniErrorInfoObj Interface"),
+	pointer_default(unique)
+]
+interface IDniErrorInfoObj : IDispatch{
+	[id(1), helpstring("method GenerateError")] HRESULT GenerateError([in] long inParam);
+};
+[
+	uuid(7A77C14A-5732-4FE4-9EB0-70F9D4D0D817),
+	version(1.0),
+	helpstring("DniErrorInfo 1.0 Type Library")
+]
+library DniErrorInfoLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(C34698D5-60B2-4C46-889F-1DC72BFE094D),
+		helpstring("DniErrorInfoObj Class")
+	]
+	coclass DniErrorInfoObj
+	{
+		[default] interface IDniErrorInfoObj;
+	};
+};

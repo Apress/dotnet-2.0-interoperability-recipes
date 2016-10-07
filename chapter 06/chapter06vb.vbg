@@ -1,0 +1,6 @@
+VBGROUP 5.0
+Project=..\..\..\DotNetInteropWork\code\chapter 06\recipe 6.2\SimpleNumberClientDualVB6\SimpleNumberClientDualVB6.vbp
+Project=..\..\..\DotNetInteropWork\code\chapter 06\recipe 6.1\SimpleNumberClientVB6\SimpleNumberClientVB6.vbp
+StartupProject=..\..\..\DotNetInteropWork\code\chapter 06\recipe 6.7\ComEventsClientVB\ComEventsClientVB.vbp
+Project=..\..\..\DotNetInteropWork\code\chapter 06\recipe 6.8\ComExceptionsVB\ComExceptionsVB.vbp
+Project=..\..\..\DotNetInteropWork\code\chapter 06\recipe 6.9\ComPreserveSigVB\ComPreserveSigVB.vbp

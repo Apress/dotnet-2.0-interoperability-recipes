@@ -1,0 +1,65 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50215</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B683A9DD-0A1F-42E7-A786-5A7DAAF3F70F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DniScVoting</RootNamespace>
+    <AssemblyName>DniScVoting</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>DniScVoting.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Common\TransactionApplicationSettings.cs">
+      <Link>TransactionApplicationSettings.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Common\TransactionLogger.cs">
+      <Link>TransactionLogger.cs</Link>
+    </Compile>
+    <Compile Include="DniScManual3VoteObj.cs" />
+    <Compile Include="DniScManual2VoteObj.cs" />
+    <Compile Include="DniScManualVoteObj.cs" />
+    <Compile Include="DniScAutoVoteObj.cs" />
+    <Compile Include="ITranMethocs.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DniScVoting.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>gacutil /i $(TargetFileName)
+regsvcs $(TargetFileName)
+copy "$(TargetDir)$(TargetName)$(TargetExt)" ..\..\..\..\bin
+copy "$(TargetDir)$(TargetName).pdb" ..\..\..\..\bin
+copy "$(TargetDir)$(TargetName).tlb" ..\..\..\..\bin
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

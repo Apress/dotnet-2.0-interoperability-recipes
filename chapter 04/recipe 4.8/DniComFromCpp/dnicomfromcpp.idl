@@ -1,0 +1,37 @@
+// DniComFromCpp.idl : IDL source for DniComFromCpp
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DniComFromCpp.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(921CF41B-D4F5-48C2-92DA-AA6B050F9279),
+	dual,
+	nonextensible,
+	helpstring("IDniComFromCppObj Interface"),
+	pointer_default(unique)
+]
+interface IDniComFromCppObj : IDispatch{
+	[id(1), helpstring("method ModifyString")] HRESULT ModifyString([in] BSTR inParam, [out,retval] BSTR* outParam);
+};
+[
+	uuid(574B7FCF-999B-41A4-A7E9-B5D77ECF9803),
+	version(1.0),
+	helpstring("DniComFromCpp 1.0 Type Library")
+]
+library DniComFromCppLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(9A29C84D-470A-45C3-ADF5-81A35F761752),
+		helpstring("DniComFromCppObj Class")
+	]
+	coclass DniComFromCppObj
+	{
+		[default] interface IDniComFromCppObj;
+	};
+};

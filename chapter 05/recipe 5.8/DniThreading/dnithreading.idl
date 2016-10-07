@@ -1,0 +1,56 @@
+// DniThreading.idl : IDL source for DniThreading
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DniThreading.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(B09DA11F-8925-4F5C-B4C0-29B1C9A057D2),
+	dual,
+	nonextensible,
+	helpstring("IDniThreadingStaObj Interface"),
+	pointer_default(unique)
+]
+interface IDniThreadingStaObj : IDispatch{
+	[id(1), helpstring("method AddNumbers")] HRESULT AddNumbers([in] long numA, [in] long numB, [out,retval] long* result);
+};
+[
+	object,
+	uuid(2F5E058B-5CE8-40D4-9205-75EF080C5985),
+	dual,
+	nonextensible,
+	helpstring("IDniThreadingMtaObj Interface"),
+	pointer_default(unique)
+]
+interface IDniThreadingMtaObj : IDispatch{
+	[id(1), helpstring("method AddNumbers")] HRESULT AddNumbers([in] long numA, [in] long numB, [out,retval] long* result);
+};
+[
+	uuid(18EBC191-70AF-4DA4-B47F-1ED1738F7FCB),
+	version(1.0),
+	helpstring("DniThreading 1.0 Type Library")
+]
+library DniThreadingLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(56966392-3BDD-4B15-B4AD-32A0200D2E0C),
+		helpstring("DniThreadingStaObj Class")
+	]
+	coclass DniThreadingStaObj
+	{
+		[default] interface IDniThreadingStaObj;
+	};
+	[
+		uuid(D3970753-9BA4-450D-9692-4D00457D8005),
+		helpstring("DniThreadingMtaObj Class")
+	]
+	coclass DniThreadingMtaObj
+	{
+		[default] interface IDniThreadingMtaObj;
+	};
+};

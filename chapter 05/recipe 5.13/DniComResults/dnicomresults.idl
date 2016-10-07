@@ -1,0 +1,39 @@
+// DniComResults.idl : IDL source for DniComResults
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DniComResults.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(3585F746-0F10-44AD-B923-BEA4AE760988),
+	dual,
+	nonextensible,
+	helpstring("IDniComResultsObj Interface"),
+	pointer_default(unique)
+]
+interface IDniComResultsObj : IDispatch{
+	[id(1), helpstring("method ProvideDifferentResults")] HRESULT ProvideDifferentResults([in] long request);
+	[id(2), helpstring("method GetTheResult")] HRESULT GetTheResult([in] long request);
+	[id(3), helpstring("method GetTheResultRefactored")] HRESULT GetTheResultRefactored([in] long request, [out, retval] HRESULT* hResult);
+};
+[
+	uuid(83D8D926-B3DD-4B8E-8964-0C4015927A07),
+	version(1.0),
+	helpstring("DniComResults 1.0 Type Library")
+]
+library DniComResultsLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(EEB16B4D-3386-47BA-B585-D2E04F3E5092),
+		helpstring("DniComResultsObj Class")
+	]
+	coclass DniComResultsObj
+	{
+		[default] interface IDniComResultsObj;
+	};
+};

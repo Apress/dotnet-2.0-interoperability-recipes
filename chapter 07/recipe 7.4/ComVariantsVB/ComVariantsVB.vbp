@@ -1,0 +1,35 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{B9B71068-6209-4CA4-BD2A-4992805F5B3C}#1.0#0#..\DniNetVariants\bin\Debug\DniNetVariants.tlb#DniNetVariants
+Reference=*\G{C38ACB1F-AC8E-44AC-8173-86689A952900}#1.0#0#..\DniNetVariantsVB\bin\Debug\DniNetVariantsVB.tlb#DniNetVariantsVB
+Form=ComVariantsVBForm.frm
+Module=TestVBNet; TestVBNet.bas
+Startup="ComVariantsVBForm"
+ExeName32="ComVariantsVB.exe"
+Command32=""
+Name="ComVariantsVB"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

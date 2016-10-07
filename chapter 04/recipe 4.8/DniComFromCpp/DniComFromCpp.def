@@ -1,0 +1,9 @@
+; DniComFromCpp.def : Declares the module parameters.
+
+LIBRARY      "DniComFromCpp.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

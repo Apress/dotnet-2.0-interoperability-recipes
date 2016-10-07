@@ -1,0 +1,27 @@
+HKCR
+{
+	DniThreading.DniThreadingStaObj.1 = s 'DniThreadingStaObj Class'
+	{
+		CLSID = s '{56966392-3BDD-4B15-B4AD-32A0200D2E0C}'
+	}
+	DniThreading.DniThreadingStaObj = s 'DniThreadingStaObj Class'
+	{
+		CLSID = s '{56966392-3BDD-4B15-B4AD-32A0200D2E0C}'
+		CurVer = s 'DniThreading.DniThreadingStaObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {56966392-3BDD-4B15-B4AD-32A0200D2E0C} = s 'DniThreadingStaObj Class'
+		{
+			ProgID = s 'DniThreading.DniThreadingStaObj.1'
+			VersionIndependentProgID = s 'DniThreading.DniThreadingStaObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{18EBC191-70AF-4DA4-B47F-1ED1738F7FCB}'
+		}
+	}
+}

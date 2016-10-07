@@ -1,0 +1,27 @@
+HKCR
+{
+	DniComEvents.DniComEventsObj.1 = s 'DniComEventsObj Class'
+	{
+		CLSID = s '{D2B1D33B-FD3C-4822-9ABC-12786728C3B2}'
+	}
+	DniComEvents.DniComEventsObj = s 'DniComEventsObj Class'
+	{
+		CLSID = s '{D2B1D33B-FD3C-4822-9ABC-12786728C3B2}'
+		CurVer = s 'DniComEvents.DniComEventsObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D2B1D33B-FD3C-4822-9ABC-12786728C3B2} = s 'DniComEventsObj Class'
+		{
+			ProgID = s 'DniComEvents.DniComEventsObj.1'
+			VersionIndependentProgID = s 'DniComEvents.DniComEventsObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{01A8ECE7-34F8-4267-AC4A-EA2C6B93E089}'
+		}
+	}
+}

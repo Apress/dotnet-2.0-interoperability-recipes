@@ -1,0 +1,9 @@
+; DniComEvents.def : Declares the module parameters.
+
+LIBRARY      "DniComEvents.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

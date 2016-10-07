@@ -1,0 +1,3 @@
+VBGROUP 5.0
+Project=recipe 8.1\SCSimpleComponentVB\ScSimpleComponentVB.vbp
+StartupProject=..\..\..\DotNetInteropWork\code\chapter 08\recipe 8.2\ScServerComponentVB\ScServerComponentVB.vbp

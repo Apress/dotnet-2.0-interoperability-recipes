@@ -1,0 +1,36 @@
+// DniSimpleCom.idl : IDL source for DniSimpleCom
+//
+// This file will be processed by the MIDL tool to
+// produce the type library (DniSimpleCom.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(DBD8268F-2570-4991-9478-39DA8B32ECE5),
+	dual,
+	nonextensible,
+	helpstring("IDniSimpleComObj Interface"),
+	pointer_default(unique)
+]
+interface IDniSimpleComObj : IDispatch{
+	[id(1), helpstring("method AddSomeNumbers")] HRESULT AddSomeNumbers([in] int numA, [in] int numB, [out,retval] int* result);
+};
+[
+	uuid(439068C7-4A28-47B9-B2DE-FA955C11259B),
+	version(1.0),
+	helpstring("DniSimpleCom 1.0 Type Library")
+]
+library DniSimpleComLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(F004EC87-EFCE-4252-B595-069311963BBB),
+		helpstring("DniSimpleComObj Class")
+	]
+	coclass DniSimpleComObj
+	{
+		[default] interface IDniSimpleComObj;
+	};
+};

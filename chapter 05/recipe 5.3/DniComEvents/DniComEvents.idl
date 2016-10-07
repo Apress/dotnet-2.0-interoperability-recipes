@@ -1,0 +1,49 @@
+// DniComEvents.idl : IDL source for DniComEvents
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DniComEvents.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(04C62481-37D2-4BCA-B6DD-68583B0B67F7),
+	dual,
+	nonextensible,
+	helpstring("IDniComEventsObj Interface"),
+	pointer_default(unique)
+]
+interface IDniComEventsObj : IDispatch{
+	[id(1), helpstring("method ChangeDesc")] HRESULT ChangeDesc([in] BSTR newDesc);
+};
+[
+	uuid(01A8ECE7-34F8-4267-AC4A-EA2C6B93E089),
+	version(1.0),
+	helpstring("DniComEvents 1.0 Type Library")
+]
+library DniComEventsLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(2C344C48-B0BF-487E-81B4-FC4860703993),
+		helpstring("_IDniComEventsObjEvents Interface")
+	]
+	dispinterface _IDniComEventsObjEvents
+	{
+		properties:
+		methods:
+		[id(1), helpstring("Desc changed event")] 
+		HRESULT	OnDescChanged([in]BSTR newDesc, [in]BSTR oldDesc);
+	};
+	[
+		uuid(D2B1D33B-FD3C-4822-9ABC-12786728C3B2),
+		helpstring("DniComEventsObj Class")
+	]
+	coclass DniComEventsObj
+	{
+		[default] interface IDniComEventsObj;
+		[default, source] dispinterface _IDniComEventsObjEvents;
+	};
+};

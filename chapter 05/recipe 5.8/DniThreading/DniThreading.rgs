@@ -1,0 +1,11 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'DniThreading'
+		'DniThreading.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}

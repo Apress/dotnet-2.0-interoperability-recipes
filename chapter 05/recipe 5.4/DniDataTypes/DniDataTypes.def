@@ -1,0 +1,9 @@
+; DniDataTypes.def : Declares the module parameters.
+
+LIBRARY      "DniDataTypes.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

@@ -1,0 +1,27 @@
+HKCR
+{
+	DniThreading.DniThreadingMtaObj.1 = s 'DniThreadingMtaObj Class'
+	{
+		CLSID = s '{D3970753-9BA4-450D-9692-4D00457D8005}'
+	}
+	DniThreading.DniThreadingMtaObj = s 'DniThreadingMtaObj Class'
+	{
+		CLSID = s '{D3970753-9BA4-450D-9692-4D00457D8005}'
+		CurVer = s 'DniThreading.DniThreadingMtaObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {D3970753-9BA4-450D-9692-4D00457D8005} = s 'DniThreadingMtaObj Class'
+		{
+			ProgID = s 'DniThreading.DniThreadingMtaObj.1'
+			VersionIndependentProgID = s 'DniThreading.DniThreadingMtaObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Free'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{18EBC191-70AF-4DA4-B47F-1ED1738F7FCB}'
+		}
+	}
+}

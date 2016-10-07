@@ -1,0 +1,8 @@
+VBGROUP 5.0
+Project=recipe 5.2\DniSimpleComVB\DniSimpleComVB.vbp
+StartupProject=recipe 5.3\DniComEventsVB\DniComEventsVB.vbp
+Project=recipe 5.6\DniDataTypesVB\DniDataTypesVB.vbp
+Project=recipe 5.7\DniExtendCom\DniExtendComVB.vbp
+Project=recipe 5.9\DniComRefactoring.vbp
+Project=recipe 5.13\DniComResultsVB\DniComResultsVB.vbp
+Project=..\..\..\DotNetInteropWork\code\chapter 05\recipe 5.16\DniErrorInfoVB\DniErrorInfoVB.vbp

@@ -1,0 +1,35 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{DA5B0A0D-10E4-4AC6-BD97-402025C4D9E1}#1.0#0#..\..\..\..\..\DotNetInteropWork\code\chapter 08\recipe 8.1\DniScSimpleComponent\bin\Debug\DniScSimpleComponent.tlb#DniScSimpleComponent
+Form=ScSimpleComponentVBForm.frm
+IconForm="ScSimpleComponentVBForm"
+Startup="ScSimpleComponentVBForm"
+ExeName32="ScSimpleComponentVB.exe"
+Path32="..\..\..\..\..\DotNetInteropWork\code\chapter 08\recipe 8.1\SCSimpleComponentVB"
+Command32=""
+Name="ScSimpleComponentVB"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

@@ -1,0 +1,27 @@
+HKCR
+{
+	DniComFromCpp.DniComFromCppObj.1 = s 'DniComFromCppObj Class'
+	{
+		CLSID = s '{9A29C84D-470A-45C3-ADF5-81A35F761752}'
+	}
+	DniComFromCpp.DniComFromCppObj = s 'DniComFromCppObj Class'
+	{
+		CLSID = s '{9A29C84D-470A-45C3-ADF5-81A35F761752}'
+		CurVer = s 'DniComFromCpp.DniComFromCppObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {9A29C84D-470A-45C3-ADF5-81A35F761752} = s 'DniComFromCppObj Class'
+		{
+			ProgID = s 'DniComFromCpp.DniComFromCppObj.1'
+			VersionIndependentProgID = s 'DniComFromCpp.DniComFromCppObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{574B7FCF-999B-41A4-A7E9-B5D77ECF9803}'
+		}
+	}
+}

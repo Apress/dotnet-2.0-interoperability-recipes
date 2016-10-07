@@ -1,0 +1,35 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#..\..\..\..\..\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{9E7D154F-BE8F-4C01-B230-BED0D394987C}#1.0#0#..\DniNetExceptions\bin\Debug\DniNetExceptions.tlb#DniNetExceptions
+Reference=*\G{102E9580-B2D2-4372-B264-4216A03225E2}#1.0#0#..\DniNetExceptionsVB\bin\Debug\DniNetExceptionsVB.tlb#DniNetExceptionsVB
+Form=ComExceptionsVBForm.frm
+Startup="ComExceptionsVBForm"
+ExeName32="ComExceptionsVB.exe"
+Command32=""
+Name="ComExceptionsVB"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="Bruce Bukovics"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1

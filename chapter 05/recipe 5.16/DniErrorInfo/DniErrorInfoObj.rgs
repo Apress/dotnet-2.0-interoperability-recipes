@@ -1,0 +1,27 @@
+HKCR
+{
+	DniErrorInfo.DniErrorInfoObj.1 = s 'DniErrorInfoObj Class'
+	{
+		CLSID = s '{C34698D5-60B2-4C46-889F-1DC72BFE094D}'
+	}
+	DniErrorInfo.DniErrorInfoObj = s 'DniErrorInfoObj Class'
+	{
+		CLSID = s '{C34698D5-60B2-4C46-889F-1DC72BFE094D}'
+		CurVer = s 'DniErrorInfo.DniErrorInfoObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C34698D5-60B2-4C46-889F-1DC72BFE094D} = s 'DniErrorInfoObj Class'
+		{
+			ProgID = s 'DniErrorInfo.DniErrorInfoObj.1'
+			VersionIndependentProgID = s 'DniErrorInfo.DniErrorInfoObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{7A77C14A-5732-4FE4-9EB0-70F9D4D0D817}'
+		}
+	}
+}

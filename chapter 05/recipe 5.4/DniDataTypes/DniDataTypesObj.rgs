@@ -1,0 +1,27 @@
+HKCR
+{
+	DniDataTypes.DniDataTypesObj.1 = s 'DniDataTypesObj Class'
+	{
+		CLSID = s '{C5501B90-B6CA-4A9C-A720-4A82E3FC3DC1}'
+	}
+	DniDataTypes.DniDataTypesObj = s 'DniDataTypesObj Class'
+	{
+		CLSID = s '{C5501B90-B6CA-4A9C-A720-4A82E3FC3DC1}'
+		CurVer = s 'DniDataTypes.DniDataTypesObj.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {C5501B90-B6CA-4A9C-A720-4A82E3FC3DC1} = s 'DniDataTypesObj Class'
+		{
+			ProgID = s 'DniDataTypes.DniDataTypesObj.1'
+			VersionIndependentProgID = s 'DniDataTypes.DniDataTypesObj'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{372F2224-9329-4394-B95F-7AA052F0D9A8}'
+		}
+	}
+}

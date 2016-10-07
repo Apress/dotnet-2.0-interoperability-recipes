@@ -1,0 +1,152 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScSimpleComponent", "recipe 8.1\DniScSimpleComponent\DniScSimpleComponent.csproj", "{46F0C7BB-25FD-4667-87EF-B5D812A76DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScSimpleComponent", "recipe 8.1\ScSimpleComponent\ScSimpleComponent.csproj", "{E82C21F8-45FC-494B-A361-C2C7768A0780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScServerComponent", "recipe 8.2\DniScServerComponent\DniScServerComponent.csproj", "{511B6721-D068-416F-92AD-C288A4E66B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScServerComponent", "recipe 8.2\ScServerComponent\ScServerComponent.csproj", "{11520EF8-9F41-48A3-A21F-ADD6D871F903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScJIT", "recipe 8.5\DniScJIT\DniScJIT.csproj", "{A8484E64-38DA-4038-BCD0-8E094B6EBE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScJIT", "recipe 8.5\ScJIT\ScJIT.csproj", "{21731AE9-8090-410D-8EC9-FF7A9DD49664}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScObjectPooling", "recipe 8.6\DniScObjectPooling\DniScObjectPooling.csproj", "{8143FFA1-8BBB-4ADE-B6F1-A1627F7C8DB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScObjectPooling", "recipe 8.6\ScObjectPooling\ScObjectPooling.csproj", "{A84C485C-023C-427D-BDB5-8DA125D6A573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScPrivateComponent", "recipe 8.7\DniScPrivateComponent\DniScPrivateComponent.csproj", "{3C606477-5F2D-462B-ACC9-0F5A960BB6D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScPrivateComponent", "recipe 8.7\ScPrivateComponent\ScPrivateComponent.csproj", "{10F2EC9F-BE96-429F-89B4-09DCD75BEBD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScRoleSecurity", "recipe 8.8\DniScRoleSecurity\DniScRoleSecurity.csproj", "{927B2C5F-F686-47D0-B5CB-76F4F6829F7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScRoleSecurity", "recipe 8.8\ScRoleSecurity\ScRoleSecurity.csproj", "{DBED50E8-1184-48B9-80DB-4FC674E2BB5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScSecurityChecks", "recipe 8.9\DniScSecurityChecks\DniScSecurityChecks.csproj", "{66C9B951-3714-489B-8AEF-6B8320C74FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScSecurityChecks", "recipe 8.9\ScSecurityChecks\ScSecurityChecks.csproj", "{410CA8F1-1D1C-4088-B00F-FF76FCD74139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScQueuedComponent", "recipe 8.10\DniScQueuedComponent\DniScQueuedComponent.csproj", "{F10D804D-8395-49B4-8554-F9CA4830666A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScQueuedComponent", "recipe 8.10\ScQueuedComponent\ScQueuedComponent.csproj", "{A07EA2AA-2B34-4D42-A506-3B6B1636C14F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DniScQueuedErrors", "recipe 8.10\DniScQueuedErrors\DniScQueuedErrors.csproj", "{71982780-CCE3-47A0-8A2A-96659704A58C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DniScSimpleComponentVB", "recipe 8.1\DniScSimpleComponentVB\DniScSimpleComponentVB.vbproj", "{0F92F6C4-CA5C-40A6-8C88-1B4EEE6E4E81}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DniScServerComponentVB", "recipe 8.2\DniScServerComponentVB\DniScServerComponentVB.vbproj", "{51F43333-09A6-44BD-A579-FF55EBF86F93}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DniScJITVB", "recipe 8.5\DniScJITVB\DniScJITVB.vbproj", "{7A9F1E98-6E88-44A9-8DB7-BA5900293A8E}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DniScObjectPoolingVB", "recipe 8.6\DniScObjectPoolingVB\DniScObjectPoolingVB.vbproj", "{DB787EEB-D4FC-4CBC-8F28-C52E39E564F5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DniScQueuedComponentVB", "recipe 8.10\DniScQueuedComponentVB\DniScQueuedComponentVB.vbproj", "{4BDB3362-1BC0-41DE-A7D9-122C0FA27E02}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DniScQueuedErrorsVB", "recipe 8.10\DniScQueuedErrorsVB\DniScQueuedErrorsVB.vbproj", "{11779E22-7996-4FEC-BAC2-83A763E4C4B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F0C7BB-25FD-4667-87EF-B5D812A76DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F0C7BB-25FD-4667-87EF-B5D812A76DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F0C7BB-25FD-4667-87EF-B5D812A76DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F0C7BB-25FD-4667-87EF-B5D812A76DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E82C21F8-45FC-494B-A361-C2C7768A0780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E82C21F8-45FC-494B-A361-C2C7768A0780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E82C21F8-45FC-494B-A361-C2C7768A0780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E82C21F8-45FC-494B-A361-C2C7768A0780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511B6721-D068-416F-92AD-C288A4E66B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511B6721-D068-416F-92AD-C288A4E66B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511B6721-D068-416F-92AD-C288A4E66B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511B6721-D068-416F-92AD-C288A4E66B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11520EF8-9F41-48A3-A21F-ADD6D871F903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11520EF8-9F41-48A3-A21F-ADD6D871F903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11520EF8-9F41-48A3-A21F-ADD6D871F903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11520EF8-9F41-48A3-A21F-ADD6D871F903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8484E64-38DA-4038-BCD0-8E094B6EBE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8484E64-38DA-4038-BCD0-8E094B6EBE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8484E64-38DA-4038-BCD0-8E094B6EBE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8484E64-38DA-4038-BCD0-8E094B6EBE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21731AE9-8090-410D-8EC9-FF7A9DD49664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21731AE9-8090-410D-8EC9-FF7A9DD49664}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21731AE9-8090-410D-8EC9-FF7A9DD49664}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21731AE9-8090-410D-8EC9-FF7A9DD49664}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8143FFA1-8BBB-4ADE-B6F1-A1627F7C8DB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8143FFA1-8BBB-4ADE-B6F1-A1627F7C8DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8143FFA1-8BBB-4ADE-B6F1-A1627F7C8DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8143FFA1-8BBB-4ADE-B6F1-A1627F7C8DB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84C485C-023C-427D-BDB5-8DA125D6A573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84C485C-023C-427D-BDB5-8DA125D6A573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84C485C-023C-427D-BDB5-8DA125D6A573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84C485C-023C-427D-BDB5-8DA125D6A573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C606477-5F2D-462B-ACC9-0F5A960BB6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C606477-5F2D-462B-ACC9-0F5A960BB6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C606477-5F2D-462B-ACC9-0F5A960BB6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C606477-5F2D-462B-ACC9-0F5A960BB6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F2EC9F-BE96-429F-89B4-09DCD75BEBD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F2EC9F-BE96-429F-89B4-09DCD75BEBD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F2EC9F-BE96-429F-89B4-09DCD75BEBD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F2EC9F-BE96-429F-89B4-09DCD75BEBD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927B2C5F-F686-47D0-B5CB-76F4F6829F7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927B2C5F-F686-47D0-B5CB-76F4F6829F7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927B2C5F-F686-47D0-B5CB-76F4F6829F7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927B2C5F-F686-47D0-B5CB-76F4F6829F7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBED50E8-1184-48B9-80DB-4FC674E2BB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBED50E8-1184-48B9-80DB-4FC674E2BB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBED50E8-1184-48B9-80DB-4FC674E2BB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBED50E8-1184-48B9-80DB-4FC674E2BB5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C9B951-3714-489B-8AEF-6B8320C74FDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C9B951-3714-489B-8AEF-6B8320C74FDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C9B951-3714-489B-8AEF-6B8320C74FDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C9B951-3714-489B-8AEF-6B8320C74FDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{410CA8F1-1D1C-4088-B00F-FF76FCD74139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{410CA8F1-1D1C-4088-B00F-FF76FCD74139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{410CA8F1-1D1C-4088-B00F-FF76FCD74139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{410CA8F1-1D1C-4088-B00F-FF76FCD74139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10D804D-8395-49B4-8554-F9CA4830666A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10D804D-8395-49B4-8554-F9CA4830666A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10D804D-8395-49B4-8554-F9CA4830666A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10D804D-8395-49B4-8554-F9CA4830666A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A07EA2AA-2B34-4D42-A506-3B6B1636C14F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A07EA2AA-2B34-4D42-A506-3B6B1636C14F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A07EA2AA-2B34-4D42-A506-3B6B1636C14F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A07EA2AA-2B34-4D42-A506-3B6B1636C14F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71982780-CCE3-47A0-8A2A-96659704A58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71982780-CCE3-47A0-8A2A-96659704A58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71982780-CCE3-47A0-8A2A-96659704A58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71982780-CCE3-47A0-8A2A-96659704A58C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F92F6C4-CA5C-40A6-8C88-1B4EEE6E4E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F92F6C4-CA5C-40A6-8C88-1B4EEE6E4E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F92F6C4-CA5C-40A6-8C88-1B4EEE6E4E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F92F6C4-CA5C-40A6-8C88-1B4EEE6E4E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F43333-09A6-44BD-A579-FF55EBF86F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F43333-09A6-44BD-A579-FF55EBF86F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F43333-09A6-44BD-A579-FF55EBF86F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F43333-09A6-44BD-A579-FF55EBF86F93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A9F1E98-6E88-44A9-8DB7-BA5900293A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A9F1E98-6E88-44A9-8DB7-BA5900293A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A9F1E98-6E88-44A9-8DB7-BA5900293A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A9F1E98-6E88-44A9-8DB7-BA5900293A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB787EEB-D4FC-4CBC-8F28-C52E39E564F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB787EEB-D4FC-4CBC-8F28-C52E39E564F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB787EEB-D4FC-4CBC-8F28-C52E39E564F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB787EEB-D4FC-4CBC-8F28-C52E39E564F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BDB3362-1BC0-41DE-A7D9-122C0FA27E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BDB3362-1BC0-41DE-A7D9-122C0FA27E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BDB3362-1BC0-41DE-A7D9-122C0FA27E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BDB3362-1BC0-41DE-A7D9-122C0FA27E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11779E22-7996-4FEC-BAC2-83A763E4C4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11779E22-7996-4FEC-BAC2-83A763E4C4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11779E22-7996-4FEC-BAC2-83A763E4C4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11779E22-7996-4FEC-BAC2-83A763E4C4B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

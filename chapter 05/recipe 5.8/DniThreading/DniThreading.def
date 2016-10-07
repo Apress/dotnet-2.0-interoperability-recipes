@@ -1,0 +1,9 @@
+; DniThreading.def : Declares the module parameters.
+
+LIBRARY      "DniThreading.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

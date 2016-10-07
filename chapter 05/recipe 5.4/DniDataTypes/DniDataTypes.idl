@@ -1,0 +1,53 @@
+// DniDataTypes.idl : IDL source for DniDataTypes
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (DniDataTypes.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(7E7CAAE3-BE37-4E70-9AAF-976FC95522BF),
+	dual,
+	nonextensible,
+	helpstring("IDniDataTypesObj Interface"),
+	pointer_default(unique)
+]
+interface IDniDataTypesObj : IDispatch{
+	[id(1), helpstring("method UseBool")] HRESULT UseBool([in] boolean inParam, [in, out] boolean* outParam);
+	[id(2), helpstring("method UseVariantBool")] HRESULT UseVariantBool([in] VARIANT_BOOL inParam, [in,out] VARIANT_BOOL* outParam);
+	[id(3), helpstring("method UseLong")] HRESULT UseLong([in] long inParam, [in,out] long* outParam);
+	[id(4), helpstring("method UseDouble")] HRESULT UseDouble([in] double inParam, [in,out] double* outParam);
+	[id(5), helpstring("method UseBSTR")] HRESULT UseBSTR([in] BSTR inParam, [in,out] BSTR* outParam);
+	[id(6), helpstring("method UseDecimal")] HRESULT UseDecimal([in] DECIMAL inParam, [in,out] DECIMAL* outParam);
+	[id(7), helpstring("method UseDate")] HRESULT UseDate([in] DATE inParam, [in,out] DATE* outParam);
+	[id(8), helpstring("method UseCurrency")] HRESULT UseCurrency([in] CURRENCY inParam, [in,out] CURRENCY* outParam);
+	[id(9), helpstring("method UseChar")] HRESULT UseChar([in] unsigned char inParam, [in,out] unsigned char* outParam);
+	[id(10), helpstring("method UseLPSTR")] HRESULT UseLPSTR([in] LPSTR inParam, [in,out] LPSTR* outParam);
+	[id(11), helpstring("method UseComCHAR")] HRESULT UseComCHAR([in] CHAR inParam, [in,out] CHAR* outParam);
+	[id(12), helpstring("method UseVariant")] HRESULT UseVariant([in] VARIANT inParam, [out] VARIANT* outParam, [out,retval] BSTR* variantDesc);
+	[id(13), helpstring("method UseArray")] HRESULT UseArray([in] SAFEARRAY(BSTR) inParam, [out,retval] BSTR* outParam);
+	[id(14), helpstring("method UpdateArray")] HRESULT UpdateArray([in,out] SAFEARRAY(BSTR) inParam);
+	[id(15), helpstring("method UseCStyleArray")] 
+	HRESULT UseCStyleArray([in, length_is(arraySize), size_is(arraySize)] long inParam[], 
+		[in] long arraySize, [in,out] BSTR* outParam);
+};
+[
+	uuid(372F2224-9329-4394-B95F-7AA052F0D9A8),
+	version(1.0),
+	helpstring("DniDataTypes 1.0 Type Library")
+]
+library DniDataTypesLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(C5501B90-B6CA-4A9C-A720-4A82E3FC3DC1),
+		helpstring("DniDataTypesObj Class")
+	]
+	coclass DniDataTypesObj
+	{
+		[default] interface IDniDataTypesObj;
+	};
+};
